@@ -38,7 +38,6 @@ local EmoteList = {
 
 
 -- Biggest ID from the list. It helps with finding recent additions.
--- Not used at the moment yet.
 local BiggestId = 0
 local function GetBiggerId(ID)
 	if BiggestId < ID[1] then
