@@ -2,9 +2,6 @@
 
 ------------------------------------------------------
 
--- Services
-local AvatarEditorService = game:GetService("AvatarEditorService")
-
 -- List of all the catalog emotes.
 local EmoteList = {
 	-- 19/10/2021
