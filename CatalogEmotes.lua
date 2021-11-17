@@ -29,6 +29,7 @@ local EmoteList = {
 	["Ud'zal's Summoning"] = {3307604888}, ["Chicken Dance"] = {4849493309}, ["Sandwich Dance"] = {4390121879}, ["Borock's Rage"] = {3236848555},
 	["Bunny Hop"] = {4646296016}, ["Superhero Reveal"] = {3696759798}, ["Hype Dance"] = {3696757129}, ["Heisman Pose"] = {3696763549}, 
 	["Air Guitar"] = {3696761354}, ["Hello"] = {3576686446}, ["Country Line Dance - Lil Nas X (LNX)"] = {5915780563}, --["Cha-Cha"] = {3696764866},
+	["Cobra Arms - Tai Verdes"] = {7942964447}, ["AOK - Tai Verdes"] = {7942960760}, ["Lasso Turn - Tai Verdes"] = {7942960760}, 
 	-- Those items are using similar names, so there might be a name change incoming.
 	["Cha Cha"] = {6865013133}, ["Cha-Cha"] = {3696764866},
 }
