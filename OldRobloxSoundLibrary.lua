@@ -14,7 +14,7 @@
 
 --[[
 	local TAGS = {
-    -- Roblox genres
+    	-- Roblox genres
 		Building = "Building";
 		Horror = "Horror";
 		TownAndCity = "Town and City";
@@ -29,7 +29,7 @@
 		Sports = "Sports";
 		Fighting = "Fighting / Ninja";
 		Western = "Western";
-    -- Non-genre categories
+    	-- Non-genre categories
 		UI = "UI";
 		Music = "Music";
 		Voice = "Voice";
@@ -1567,7 +1567,6 @@ return {
 	[1524] = {ID = 132840688, Name = 'Howl 2', Tags = {Horror=1,Medieval=1,TownAndCity=1,RPG=1,CreatureSounds=1,}, };
 	[1525] = {ID = 132840685, Name = 'Howl1', Tags = {Horror=1,Medieval=1,TownAndCity=1,RPG=1,CreatureSounds=1,}, };
 	[1526] = {ID = 132840694, Name = 'Howl 3', Tags = {Horror=1,Adventure=1,Medieval=1,RPG=1,CreatureSounds=1,}, };
-
 	[1527] = {ID = 130168771, Name = 'doorbell', Tags = {TownAndCity=1,Comedy=1,UI=1,}, };
 	[1528] = {ID = 130113415, Name = 'Hit Fade', Tags = {SciFi=1,RPG=1,FPS=1,}, };
 	[1529] = {ID = 130113396, Name = 'SciFi fire and reload', Tags = {SciFi=1,FPS=1,}, };
@@ -1589,7 +1588,6 @@ return {
 	[1545] = {ID = 129425664, Name = 'Woosh end', Tags = {TownAndCity=1,Comedy=1,Fighting=1,}, };
 	[1546] = {ID = 129425637, Name = 'woosh', Tags = {TownAndCity=1,Comedy=1,Fighting=1,}, };
 	[1547] = {ID = 129422444, Name = 'Car Honk', Tags = {Building=1,TownAndCity=1,Comedy=1,}, };
-
 	[1548] = {ID = 128912290, Name = 'Fire Summon', Tags = {Horror=1,Adventure=1,Medieval=1,RPG=1,Fighting=1,}, };
 	[1549] = {ID = 128911690, Name = 'Magic Shock', Tags = {Horror=1,Adventure=1,Medieval=1,RPG=1,Fighting=1,}, };
 	[1550] = {ID = 128123893, Name = 'Coach Whistle', Tags = {TownAndCity=1,Military=1,Sports=1,}, };
