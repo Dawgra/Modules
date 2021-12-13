@@ -1944,6 +1944,7 @@ return {
 	[1900] = {ID = 9413296, Name = 'Duck Quack 2', Tags = {TownAndCity=1,Comedy=1,CreatureSounds=1,}, };
 	[1901] = {ID = 9413300, Name = 'Duck Quack 3', Tags = {TownAndCity=1,Comedy=1,CreatureSounds=1,}, };
 	[1902] = {ID = 9413294, Name = 'Duck Quack 1', Tags = {TownAndCity=1,Comedy=1,CreatureSounds=1,}, };
+	-- Legacy sounds, listed by bot
 	[1903] = {ID = 12229501, Name = 'Halloween Ghost', Tags = {Horror=1,Comedy=1,Voice=1,CreatureSounds=1,Default=1,}, };
 	[1904] = {ID = 12222216, Name = 'Sword Slash', Tags = {Adventure=1,RPG=1,Fighting=1,Default=1,}, };
 	[1905] = {ID = 12222124, Name = 'Short spring sound', Tags = {Adventure=1,RPG=1,Fighting=1,Default=1,}, };
