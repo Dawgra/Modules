@@ -1,3 +1,6 @@
+-- Dogutsune, 2024
+-- Classic BrickColor Utility Module
+
 local OLD_COLORS = {
 	BrickColor.new("White"); BrickColor.new("Medium blue"); BrickColor.new("Light reddish violet"); BrickColor.new("Sand green"); 
 	BrickColor.new("Dark orange"); BrickColor.new("Light stone grey"); BrickColor.new("Brick yellow"); BrickColor.new("Brown"); 
