@@ -1,4 +1,4 @@
--- Dogutsune, 2024
+-- @Dogutsune, 2024
 -- Classic BrickColor Utility Module
 
 local OLD_COLORS = {
