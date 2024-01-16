@@ -1,6 +1,7 @@
 -- @Dogutsune, 2024
 -- Classic BrickColor Utility Module
 
+-- 2007 Studio color palette
 local OLD_COLORS = {
 	BrickColor.new("White"); BrickColor.new("Medium blue"); BrickColor.new("Light reddish violet"); BrickColor.new("Sand green"); 
 	BrickColor.new("Dark orange"); BrickColor.new("Light stone grey"); BrickColor.new("Brick yellow"); BrickColor.new("Brown"); 
@@ -12,19 +13,44 @@ local OLD_COLORS = {
 	BrickColor.new("Earth green"); BrickColor.new("Bright violet"); BrickColor.new("Bright red"); BrickColor.new("Cool yellow"); 
 }
 
+-- Paintball gun palette
+local PAINTBALL_COLORS = {
+	BrickColor.new("Light blue"); BrickColor.new("Br. yellowish green"); BrickColor.new("Bright red"); BrickColor.new("Bright yellow"); 
+	BrickColor.new("Bright blue"); BrickColor.new("Br. yellowish orange"); BrickColor.new("Bright violet")
+}
+
+-- Flamethrower palette
+local FLAME_COLORS = {
+	-- Those colors have a smaller chance to appear.
+	BrickColor.new("Bright red"); BrickColor.new("White");
+	-- Those colors have a bigger chance to appear.
+	BrickColor.new("Cool yellow"); BrickColor.new("Cool yellow"); BrickColor.new("Bright yellow"); BrickColor.new("Bright yellow");
+	BrickColor.new("Bright orange"); BrickColor.new("Bright orange"); BrickColor.new("Br. yellowish orange"); BrickColor.new("Br. yellowish orange"); 
+}
+
 ------------------------------------------------------------------------------ 
 
 local BrickColorClassic = {}
 
+------------------------------------------------------------------------------ 
+
 -- BrickColor.Random(), but for classic colors.
--- BrickColorClassic.Random()
 local R = Random.new()
 function BrickColorClassic.Random()
 	return OLD_COLORS[R:NextInteger(1, #OLD_COLORS)]
 end
 
+-- BrickColor.Random(), but just Paintballs.
+function BrickColorClassic.Paintball()
+	return PAINTBALL_COLORS[R:NextInteger(1, #PAINTBALL_COLORS)]
+end
+
+-- BrickColor.Random(), but just flames.
+function BrickColorClassic.Flame()
+	return FLAME_COLORS[R:NextInteger(1, #FLAME_COLORS)]
+end
+
 -- Convert color to a classic color.
--- BrickColorClassic.Convert(Color3)
 function BrickColorClassic.Convert(color : Color3)
 	local pickedColor
 	local value = math.huge
@@ -42,5 +68,7 @@ function BrickColorClassic.Convert(color : Color3)
 	
 	return pickedColor
 end
+
+------------------------------------------------------------------------------ 
 
 return BrickColorClassic
