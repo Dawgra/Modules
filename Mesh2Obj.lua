@@ -20,7 +20,7 @@
 -- 01: Save the model that contains the mesh binary data as a .rbxmx file
 -- 02: In a text editor, strip out all the XML text until you're just left with the base64 encoded string
 -- 03: Paste the base64 content onto a website that decodes base64 data into it's raw binary data
--- 04: Copy the data and create a new module in the workspace named "Mesh2obj"
+-- 04: Copy the data and create a new module in the workspace named "Mesh2obj" (or change it's directory).
 -- 05: Change the modules content to something like this
 --[[
 	return [[
